@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/2
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzI3ODU3MTYyLCJ1c2VySWQiOjJ9.78glnUIezrQjpOfi2m2efldohauyKadyQ2GU5bzSBis
+
+{
+    "name": "Updated twice event Yes",
+    "description": "Updated test event",
+    "location": "Updated test location",
+    "dateTime": "2025-01-01T15:30:00.000Z"
+}
